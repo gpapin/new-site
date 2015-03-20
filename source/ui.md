@@ -129,10 +129,9 @@ more work than usual to contribute. For the UI, the best setup is to do the foll
 
 1. Create a `reapp` folder
 2. Clone the [kitchen sink](https://github.com/reapp/kitchen-sink) repository
-3. Clone this repository
-4. Run `sudo npm link` inside this repository
-5. **Important:** Run `npm remove react` in reapp-ui and be sure react isn't in node_modules
-6. Run `sudo npm link reapp-ui` inside the kitchen sink repository
+3. Run `sudo npm link` inside this repository
+4. **Important:** Run `sudo npm remove react` in reapp-ui and be sure react isn't in node_modules
+5. Run `sudo npm link reapp-ui` inside the kitchen sink repository
 
 This will link your reapp-ui module into your kitchen sink repo. Now you can:
 
